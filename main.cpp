@@ -48,7 +48,7 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
 			break;
 		}
 	}
-
+	delete scene;
 	// ライブラリの終了
 	Novice::Finalize();
 	return 0;

@@ -33,6 +33,9 @@ void SceneManager::SceneUpdate(char *keys,char *preKeys)
 	case SceneManager::GAME:
 		title_->SetInit();
 		ingame_->SetUpdate();
+		if (ingame_->GetisDed() == 1) {
+			scene_ = TITLE;
+		}
 		if (keys[DIK_R]) {
 			scene_ = TITLE;
 		}

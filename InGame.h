@@ -11,6 +11,7 @@ private:
 	int y_;
 	int w_;
 	int h_;
+	int isDed;
 	int Background[1] = { Novice::LoadTexture("./image/Background1.png") };
 
 public:
@@ -18,6 +19,7 @@ public:
 	int Gety_() { return y_; };
 	int Getw_() { return w_; };
 	int Geth_() { return h_; };
+	int GetisDed() { return isDed; };
 	void SetInit();
 	void SetUpdate();
 	void SetDraw();
