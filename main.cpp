@@ -30,7 +30,6 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
 
 		/// ↑更新処理ここまで
 		///
-		
 		///
 		/// ↓描画処理ここから
 		
