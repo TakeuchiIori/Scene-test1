@@ -11,6 +11,7 @@ private://メンバ変数
 	float frame_;
 	float keep_speed_;
 	bool isAlive_;
+	Player* player_;
 
 public://メンバ関数 : アクセッサ
 	Vector2 Getene_pos_() { return ene_pos_; }
@@ -26,6 +27,7 @@ public://メンバ関数 : アクセッサ
 	void SetInit();
 	void SetUpdate();
 	void SetColision(float bX_,float bY_,float radius_);
+	void PlayerColision(float pX_, float pY_, float radius);
 	void SetDraw();
 };
 

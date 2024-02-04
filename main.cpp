@@ -30,7 +30,6 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
 
 		/// ↑更新処理ここまで
 		///
-		
 		///
 		/// ↓描画処理ここから
 		
@@ -48,7 +47,7 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
 			break;
 		}
 	}
-
+	delete scene;
 	// ライブラリの終了
 	Novice::Finalize();
 	return 0;
